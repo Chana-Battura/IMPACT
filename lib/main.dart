@@ -146,8 +146,6 @@ showAlertDialog(BuildContext context, int number) {
         context,
         MaterialPageRoute(builder: (context) => Transaction()),
       );
-
-      Navigator.of(context, rootNavigator: true).pop('dialog');
     },
   );
   Widget continueButton = FlatButton(
